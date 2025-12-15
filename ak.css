@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #1a73e8;
+}
+
+h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid #1a73e8;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Hero Section Images */
+center img {
+    margin: 20px 0;
+    transition: transform 0.3s ease;
+}
+center img:hover {
+    transform: scale(1.05);
+}
+
+/* Paragraphs */
+h3 {
+    max-width: 900px;
+    margin: 15px auto;
+    font-size: 1.1rem;
+    text-align: justify;
+    color: #444;
+}
+
+/* Tables */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background: #1a73e8;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* Instagram Section */
+a img {
+    transition: transform 0.3s ease;
+}
+a img:hover {
+    transform: rotate(10deg) scale(1.1);
+}
+
+/* Footer */
+h4 {
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+/* Horizontal Rule */
+hr {
+    border: none;
+    height: 2px;
+    background: #1a73e8;
+    margin: 30px auto;
+    width: 80%;
+}
+
+
+
+
